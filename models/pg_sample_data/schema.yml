@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: pg_sample_data
+    description: 'Sample de uma base de dados postgresql'
+    database: alura
+    schema : public
+    tables:
+      - name: instrutor
+        description: 'Details about instrutor'
